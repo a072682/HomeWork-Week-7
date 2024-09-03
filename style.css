@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+body{
+    font-family: "Bruno Ace SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.container{
+    width:100%;
+    height: 100vh;
+}
+.bkgd-Black{
+    background-color: #000000;
+}
+.box-in-set{
+    padding: 0 312px;
+    width: 1296px;
+    margin: 0 auto;
+}
+
+/*---------nav----------*/
+
+.nav-box-in{
+    padding: 40px 312px;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-box-in a{
+    text-decoration: none;
+}
+.nav-box-in p{
+    color:#D1D1D1;
+}
+
+
+/*---------header1---------*/
+.header1-box-in{
+    padding-bottom: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header1_1A-img img{
+    display: block;
+}
+.header1_1A-text{
+    width: 636px;
+    margin-left: 24px;
+}
+.header1_1A-text h2{
+    color:#D1D1D1;
+    font-size: 64px;
+}
+.header1_1A-text h1{
+    color:#00FFA3;
+    font-size: 128px;
+    text-align: right;
+}
+.header1_2A-btn{
+    display: block;
+    margin-left: auto;
+    border-radius: 50px;
+}
+.header1_3A-btn{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.header1_3A-btn p{
+    font-family: "Bruno Ace SC", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000000;
+}
+
+/*---------header2---------*/
+.header2{
+    background-image:url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+.header2{
+    padding:160px 0;
+}
+.header2-box-in{
+    display: flex;
+}
+.header2_1A-text h2{
+    color:#D1D1D1;
+    font-size: 64px;
+}
+.header2_1A-text p{
+    color:#D1D1D1;
+    font-size: 24px;
+}
+.header2_1A-img{
+    display: flex;
+}
+.header2_2A-img{
+    margin-top: 32px;
+}
+.header2_1A-img img{
+    margin-left: 24px;
+}
+
+
+/*---------main1---------*/
+.main1-box-in{
+    margin: 160px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main_1A-card-box{
+    box-sizing: border-box;
+    max-width: 636px;
+    gap: 24px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+.main_2A-card{
+    box-sizing: border-box;
+    width: 306px;
+    padding: 16px 16px;
+    border: 1px solid #E3E3E3;
+}
+.card-text-set{
+    font-size: 20px;
+}
+.main_1A-article{
+    max-width: 526px;
+}
+.main_1A-article h3{
+    font-size: 64px;
+    color:#000000
+}
+.main_1A-article p{
+    font-size: 24px;
+    color:#15161D
+}
+
+
+
+/*---------icon---------*/
+.icon{
+    background-image: linear-gradient(#080418,#1A1B33);
+    padding: 96px 0;
+}
+.icon-box-in{
+    display: flex;
+    justify-content:space-between;
+}
+.icon_1A-text{
+    color:#FFFFFF;
+    font-size: 64px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.icon_1A-text h3{
+    margin-right: 16px;
+}
+.icon_1A-img{
+    display: flex;
+    gap:20px
+}
+.icon_2A-img{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.icon_2B-img-set , .icon_2B-img-set img{
+    border-radius: 35px;
+}
+.icon_2B-img-set img{
+    display: block;
+    box-shadow: 0 0 0px 0 rgba(208, 208, 255, 0.8);
+    transition: 0.5s;
+}
+.icon_2B-img-set img:hover{
+    box-shadow: 0 0 20px 0 rgba(208, 208, 255, 0.8);
+    transition: 0.5s;
+}
+
+/*----------main2------------*/
+
+.main2-box-in{
+    padding: 160px 0;
+}
+.main2_1A-title{
+    width: 746px;
+    margin-left: auto;
+}
+.main2_1A-title h4{
+    text-align: left;
+    font-size: 64px;
+}
+.main2_1A-box{
+    width: 1296px;
+    display: flex;
+    justify-content: center;
+}
+.main2_2A-img{
+    margin-right: 24px;
+}
+.main2_2A-img img{
+    display: block;
+}
+.main2_3A-article{
+    display: flex;
+}
+.main2_3A-img{
+    display: flex;
+    margin-top: 24px;
+    gap:24px;
+}
+.main2_3A-img img{
+    display: block;
+}
+.main2_4A-box{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+.main2_4A-img{
+    margin-right: 24px;
+}
+.main2_4A-img img{
+    display: block;
+}
+.main2_5A-btn{
+    margin-right: auto;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 50px;
+}
+.main2_5A-btn p{
+    color: #FFFFFF;
+    font-family: "Bruno Ace SC", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.main2_6A-btn{
+    display: flex;
+    text-decoration: none;
+}
+
+
+.footer{
+    background-color: #000000;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 40px 0;
+}
